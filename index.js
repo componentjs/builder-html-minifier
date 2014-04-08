@@ -5,7 +5,8 @@ module.exports = function (options) {
     if (file.extension !== 'html') return done();
     file.read(function (err, string) {
       if (err) return done(err);
-      file.string = minify(string, options);
+      file.string = JSON.stringify(minify(string, options));
+      file.define = true;
       done();
     })
   }
