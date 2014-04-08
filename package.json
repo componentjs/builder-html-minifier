@@ -1,7 +1,7 @@
 {
   "name": "builder-html-minifier",
   "description": "html minifier plugin for component-builder2.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
